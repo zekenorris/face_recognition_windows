@@ -82,7 +82,7 @@ def toggle(x) :
 #     resetCapture(dirChanged, firstLoop, started, loser, zekeActivated, picsTaken, lastUser, currentUser, pictures, changedEarly)
 #     setupDirectory(folderBase, dirCount, nextDir)
 
-nextDir = setupDirectory()l
+nextDir = setupDirectory()
 
 cascPathface = os.path.dirname(
  cv2.__file__) + "/data/haarcascade_frontalface_alt2.xml"
