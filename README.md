@@ -4,6 +4,12 @@ This program builds directly upon the repository by ageitgey located: https://gi
 
 An additional layer of security is added to a Windows 10 machine by continually monitoring an attached USB webcam and subsequently performing scripted Windows activities based on who is detected, was last detected and if there is a person detected or not.
 
+The program first scans and parses the chosen folder, then creates a naming scheme based on selected options in the chosen folder.  Defaults are to name detected intruders as 'dumb_dumb<number>.jpg inside the models folder, with a specific matching 'dumb_dumb' folder.
+
+After the 'intruder's' picture is captured, the program also applies digital makeup to 'sillify' the image, then saves the modified image directly in the chosen root folder, default 'models'
+
+A user could set the windows wallpaper to automatically create a slideshow from the intruder's images so as to easily identify intrusions at logon.
+
 ------------------------------INSTALLATION-------------------------------------------
 
 2022/09/19
