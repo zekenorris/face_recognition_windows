@@ -239,7 +239,7 @@ while True:
                 os.system('logoff')
             picsTaken = 0
             
-    # cv2.imshow("Frame", frame)
+     cv2.imshow("Frame", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 video_capture.release()
