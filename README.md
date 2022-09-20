@@ -34,7 +34,7 @@ For any other errors check the detailed installations for the main packages used
 
 In order to detect faces, the program needs to first scan some pictures to make a list of known people.  In the project root is a folder named `models`.  In order to train the algorithm to recognize a face, perform the following
 
-~~~~~ADDING A NEW FACE~~~~
+ADDING A NEW FACE
 Step 1 - Create a new folder in the models folder with the desired model name, ie, `face_recognition/models/<insert desired name here>`
 Step 2 - Paste some pictures of the desired model into the newly created folder.  Anything from 1-desired amount appears fine, however, my computer seems to start taking significantly longer to create models with over 15 pictures.
 Step 3 - change directory to the folder root if not already there, then execute the command `python3 face_scan.py`
